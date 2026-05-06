@@ -62,4 +62,4 @@ O script de tratamento de dados está em data_processing.py.
 
 ✍️ Análise Completa (Medium)
 Para entender toda a lógica de negócio por trás desse projeto, incluindo a metodologia do Score, leia o artigo completo que escrevi:
-👉 [Link para o seu artigo do Medium aqui]
+👉 [Link para o  artigo do Medium aqui]
