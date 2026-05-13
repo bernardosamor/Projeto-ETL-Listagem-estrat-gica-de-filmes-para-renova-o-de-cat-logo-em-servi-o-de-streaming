@@ -1,7 +1,5 @@
 # Projeto-ETL-Listagem-estrat-gica-de-filmes-para-renova-o-de-cat-logo-em-servi-o-de-streaming
 
-⚠️ Work in Progress (WIP): Este repositório está sendo atualizado com a documentação completa dos projetos.
-
 
 > **Resumo:** Projeto desenvolvido com intuito de listar filmes com maior valor argregado via a criação de métricas que equilibrassem o custo de aquisição de licença com qualidade (avaliação IDMB) do filme para renovação de catálogo de filmes em serviço de streaming.
 
@@ -42,24 +40,44 @@ Este é um projeto que exemplifica a cadeia de ETL, portanto ele é criado ao in
   * **Página Home:** Introdução do Projeto, optei por trazer informações do projeto buscando tendências, como: Médias de avaliação por década, proporção absoluta de filmes por gênero e proporção percentual da base por duração de filmes. 
   * **Página Filmes escolhidos:** Apresentação da lista de filmes escolhidos, comparações com filmes blockbusters para quantificar a economia e dimensionar o peso das escolhas estratégicas.
 
+---
+
+### 📊Dashboard Criados
+
+* **Página Capa**
+
+<img width="1314" height="738" alt="hOME" src="https://github.com/user-attachments/assets/add27a23-32d4-4cb7-b63f-acd537163ba7" />
+
+---  
+
+* **Página Home**: Página dedicada a caracterização da base por meio dos critérios:
+  * **Décadas:** Entender se existe algum período que se destoa dos demais.
+  * **Gêneros:** Pesquisar se existe viés de gênero dentre os 250 filmes da base.
+  * **Duração:** Entender a base quanto ao perfil dos usuários em relação a preferência por filmes curtos ou maiores.
+
+<img width="1304" height="719" alt="P1" src="https://github.com/user-attachments/assets/45771175-584c-4a4a-a0f8-0db46a1a8845" />
+
+--- 
+
+* **Filmes Escolhidos**
+  * **Escolhas otimizadas vs BlockBusters** 
+  * **Listagem dos filmes selecionados** 
+  * **Análise de ROI Qualitativo por Gênero** 
+
+<img width="1304" height="728" alt="P2" src="https://github.com/user-attachments/assets/74fd9004-44fb-4aba-9023-153b3f1c5fc2" />
+
+---
 
 ### 📈 Principais Insights
 * **Blockbuster vs Escolhas estratégicas:** Ao desenvolver a métrica de Score Custo Benefício, foi possível selecionar filmes com qualidades superiores a grandes produções com fração do custo de licença.
-Processamento de Dados: Limpeza de ruídos e normalização de notas e gêneros.
+* **Análise de ROI Qualitativo:** O estudo evidenciou uma descorrelação entre custo e satisfação. Gêneros como Crime e Biography atingem picos de avaliação (média 8.40) custando até 85% menos que gêneros saturados como Drama, provando que maior investimento nem sempre reflete maior qualidade percebida pelo usuário.
+* **Eficiência de Escala:** A estratégia de otimização demonstrou que, com o orçamento necessário para licenciar um único título de alto custo (Blockbuster), é possível adquirir o Top 10 completo de filmes com maior Score Custo-Benefício. Isso garante uma nota média de 8,27 para o catálogo, maximizando a retenção de usuários com um investimento 97% menor.
 
 ---
-TERMINAR A PARTIR DAQUI 
 
+### 📝 Documentação e Metodologia
+Para entender todo o raciocínio analítico, a metodologia aplicada e as conclusões sugeridas, acesse o artigo completo no Medium:
+👉 [Leia o Projeto ETL na íntegra](https://medium.com/@bernardosamor18/estudo-de-churn-em-empresa-saas-dc60f8f2f1a5)
 
-Dashboard de Decisão: Uma visão executiva que permite ao gestor de conteúdo filtrar títulos por gênero, ano e pontuação de custo-benefício.
-
-Insight de Arbitragem: Demonstração visual de como substituir títulos de baixo desempenho por opções de alta qualidade e menor custo.
-
-🚀 Como visualizar
-O dashboard em PDF/imagem está na pasta /visuals.
-
-O script de tratamento de dados está em data_processing.py.
-
-✍️ Análise Completa (Medium)
-Para entender toda a lógica de negócio por trás desse projeto, incluindo a metodologia do Score, leia o artigo completo que escrevi:
-👉 [Link para o  artigo do Medium aqui]
+---
+*Analista: Bernardo Samôr*
