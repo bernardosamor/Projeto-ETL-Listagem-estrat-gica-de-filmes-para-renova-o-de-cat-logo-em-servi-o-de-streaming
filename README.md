@@ -77,7 +77,7 @@ Este é um projeto que exemplifica a cadeia de ETL, portanto ele é criado ao in
 
 ### 📝 Documentação e Metodologia
 Para entender todo o raciocínio analítico, a metodologia aplicada e as conclusões sugeridas, acesse o artigo completo no Medium:
-👉 [Leia o Projeto ETL na íntegra](https://medium.com/@bernardosamor18/estudo-de-churn-em-empresa-saas-dc60f8f2f1a5)
+👉 [Leia o Projeto ETL na íntegra]([https://medium.com/@bernardosamor18/estudo-de-churn-em-empresa-saas-dc60f8f2f1a5](https://medium.com/@bernardosamor18/projeto-etl-auxiliar-tomada-de-decis%C3%A3o-em-renova%C3%A7%C3%A3o-de-cat%C3%A1logo-de-filmes-em-servi%C3%A7o-de-streaming-ae0cb1ff122b?postPublishedType=repub))
 
 ---
 *Analista: Bernardo Samôr*
