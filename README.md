@@ -1,4 +1,4 @@
-# Projeto-ETL-Listagem-estrat-gica-de-filmes-para-renova-o-de-cat-logo-em-servi-o-de-streaming
+# Projeto-ETL-Otimização-Catalogo-Streaming
 
 
 > **Resumo:** Projeto desenvolvido com intuito de listar filmes com maior valor argregado via a criação de métricas que equilibrassem o custo de aquisição de licença com qualidade (avaliação IDMB) do filme para renovação de catálogo de filmes em serviço de streaming.
